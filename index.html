@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrategia Maestra: studioMac</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8FAFC;
+        }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            height: 300px;
+        }
+
+        .step-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .timeline-line::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 24px;
+            width: 2px;
+            background: #E2E8F0;
+            z-index: 0;
+        }
+
+        @media (min-width: 768px) {
+            .timeline-line::before {
+                left: 50%;
+                margin-left: -1px;
+            }
+        }
+    </style>
+</head>
+
+<body class="text-slate-800">
+
+    <!-- HERO SECTION: BRAND POSITIONING -->
+    <header class="bg-slate-900 text-white p-12 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-blue-600 opacity-20 rounded-full blur-3xl -mr-20 -mt-20"></div>
+        <div
+            class="max-w-7xl mx-auto relative z-10 text-center md:text-left flex flex-col md:flex-row justify-between items-center">
+            <div>
+                <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">studioMac</h1>
+                <p class="text-blue-400 text-2xl font-light">Atención Experta. Potencia Mac.</p>
+                <p class="mt-4 text-slate-400 max-w-xl">
+                    "Aprende mejor con atención personalizada de expertos, usando las computadoras más avanzadas y
+                    actuales del mercado."
+                </p>
+            </div>
+            <div class="mt-8 md:mt-0 bg-white/5 backdrop-blur-lg border border-white/10 p-6 rounded-2xl">
+                <div class="text-sm uppercase tracking-widest text-blue-300 font-semibold mb-1">Diferenciador</div>
+                <div class="text-3xl font-bold">Personalización</div>
+                <div class="text-sm text-slate-400">+ Hardware de Punta (Mac)</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-6 md:p-12 space-y-20">
+
+        <!-- SECTION 1: THE PILLARS (WHY US?) -->
+        <section>
+            <div class="text-center mb-10">
+                <h3 class="text-3xl font-bold text-slate-900">Pilares de Diferenciación</h3>
+                <p class="text-slate-500">¿Por qué elegirnos sobre un curso online?</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                🚀</div>
+            <h4 class="font-bold text-xl mb-2">Expertos en su área</h4>
+            <p class="text-sm text-slate-600">Instructores expertos en ecosistema Apple, Adobe y Desarrollo.</p>
+            </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: TIMELINE & EXECUTION -->
+        <section>
+            <h3 class="text-3xl font-bold text-slate-900 mb-12 text-center">Hoja de Ruta de Ejecución</h3>
+            <div class="relative timeline-line space-y-12 pl-12 md:pl-0">
+
+                <!-- Phase 1 -->
+                <div class="relative md:w-1/2 md:ml-auto md:pl-12 group">
+                    <div
+                        class="absolute top-0 left-[-41px] md:left-[-17px] w-9 h-9 bg-blue-600 rounded-full border-4 border-slate-50 shadow-lg z-10 group-hover:scale-110 transition-transform">
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-blue-600">
+                        <div class="flex justify-between items-center mb-2">
+                            <h4 class="font-bold text-lg text-blue-700">Fase 1: Captura & Datos</h4>
+                            <span class="text-xs font-bold bg-blue-100 text-blue-700 px-2 py-1 rounded">Mes 1</span>
+                        </div>
+                        <ul class="text-sm space-y-2 text-slate-600">
+                            <li>• <strong>Search ADS:</strong> "Curso diseño gráfico", "Clases programación".</li>
+                            <li>• <strong>Lead Gen:</strong> Construir tu primera BD desde cero (Guardar cada contacto).
+                            </li>
+                            <li>• <strong>KPI:</strong> 30 Conversiones (Whats/Form) para calibrar pixel.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Phase 2 -->
+                <div class="relative md:w-1/2 md:mr-auto md:pr-12 md:text-right group">
+                    <div
+                        class="absolute top-0 left-[-41px] md:right-[-17px] md:left-auto w-9 h-9 bg-purple-600 rounded-full border-4 border-slate-50 shadow-lg z-10 group-hover:scale-110 transition-transform">
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-purple-600 md:border-l-0 md:border-r-4">
+                        <div class="flex justify-between items-center mb-2 md:flex-row-reverse">
+                            <h4 class="font-bold text-lg text-purple-700">Fase 2: Expansión PMax</h4>
+                            <span class="text-xs font-bold bg-purple-100 text-purple-700 px-2 py-1 rounded">Mes
+                                2-3</span>
+                        </div>
+                        <ul class="text-sm space-y-2 text-slate-600">
+                            <li>• <strong>Performance Max:</strong> Creativos visuales (Fotos del CSV).</li>
+                            <li>• <strong>Audiencias:</strong> "Custom Intent" (Webs competencia, Búsquedas Tech).</li>
+                            <li>• <strong>Objetivo:</strong> Saturar la visibilidad en YouTube/Display local.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Phase 3 -->
+                <div class="relative md:w-1/2 md:ml-auto md:pl-12 group">
+                    <div
+                        class="absolute top-0 left-[-41px] md:left-[-17px] w-9 h-9 bg-orange-500 rounded-full border-4 border-slate-50 shadow-lg z-10 group-hover:scale-110 transition-transform">
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-orange-500">
+                        <div class="flex justify-between items-center mb-2">
+                            <h4 class="font-bold text-lg text-orange-700">Fase 3: Optimización ROAS</h4>
+                            <span class="text-xs font-bold bg-orange-100 text-orange-700 px-2 py-1 rounded">Mes
+                                3+</span>
+                        </div>
+                        <ul class="text-sm space-y-2 text-slate-600">
+                            <li>• <strong>Smart Bidding:</strong> CPA Objetivo.</li>
+                            <li>• <strong>Remarketing:</strong> Recuperación de interesados en la web.</li>
+                            <li>• <strong>Escalado:</strong> Aumentar presupuesto en campañas ganadoras.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: COURSE CATALOG (FROM CSV) -->
+        <section class="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100">
+            <div
+                class="p-8 bg-slate-50 border-b border-slate-100 flex flex-col md:flex-row justify-between items-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-slate-900">Catálogo Oficial & Enfoque Visual</h3>
+                    <p class="text-sm text-slate-500 mt-1">Inventario de cursos activos para campañas de búsqueda.</p>
+                </div>
+                <div class="mt-4 md:mt-0">
+                    <span
+                        class="px-4 py-2 bg-green-100 text-green-700 rounded-full text-xs font-bold uppercase tracking-wide">27
+                        Cursos Activos</span>
+                </div>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-sm text-slate-600">
+                    <thead class="bg-slate-100 text-slate-700 uppercase font-bold text-xs">
+                        <tr>
+                            <th class="p-4">Nombre del Curso</th>
+                            <th class="p-4">Categoría Visual</th>
+                            <th class="p-4 hidden md:table-cell">Concepto Creativo (Prompt IA)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-100">
+                        <!-- Dynamic Rows from CSV Data -->
+                        <tr class="hover:bg-slate-50">
+                            <td class="p-4 font-semibold text-slate-800">Diseño Gráfico Esencial</td>
+                            <td class="p-4"><span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">Macro
+                                    Táctico</span></td>
+                            <td class="p-4 text-xs italic text-slate-500 hidden md:table-cell">"Designers hand using
+                                stylus..."</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="p-4 font-semibold text-slate-800">Diseño Web UX/UI</td>
+                            <td class="p-4"><span
+                                    class="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">Arquitectura</span>
+                            </td>
+                            <td class="p-4 text-xs italic text-slate-500 hidden md:table-cell">"Glass-morphism
+                                interfaces bursting out..."</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="p-4 font-semibold text-slate-800">Fundamentos de Programación</td>
+                            <td class="p-4"><span
+                                    class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs">Inmersión
+                                    Total</span></td>
+                            <td class="p-4 text-xs italic text-slate-500 hidden md:table-cell">"Glowing 3D logical
+                                operators..."</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="p-4 font-semibold text-slate-800">Ilustración Digital</td>
+                            <td class="p-4"><span class="bg-pink-100 text-pink-800 px-2 py-1 rounded text-xs">Acción
+                                    Creativa</span></td>
+                            <td class="p-4 text-xs italic text-slate-500 hidden md:table-cell">"Whimsical green
+                                octopus..."</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="p-4 font-semibold text-slate-800">Soporte Técnico Apple</td>
+                            <td class="p-4"><span
+                                    class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs">Arquitectura</span></td>
+                            <td class="p-4 text-xs italic text-slate-500 hidden md:table-cell">"Tech-bench with open
+                                Macs..."</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="p-4 font-semibold text-slate-800">Videojuegos en Apple</td>
+                            <td class="p-4"><span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">El
+                                    Creador</span></td>
+                            <td class="p-4 text-xs italic text-slate-500 hidden md:table-cell">"Stylized 8-bit heroes
+                                bursting out..."</td>
+                        </tr>
+                        <!-- More rows implied for brevity -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="p-4 bg-slate-50 text-center text-xs text-slate-400">
+                * Datos extraídos del archivo CSV oficial. Se muestran los cursos principales.
+            </div>
+        </section>
+
+        <!-- SECTION 4: DATA VISUALIZATION -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                <h4 class="font-bold text-center mb-6">Mix de Inversión</h4>
+                <div class="chart-container">
+                    <canvas id="budgetChart"></canvas>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                <h4 class="font-bold text-center mb-6">Proyección de Leads (Trimestral)</h4>
+                <div class="chart-container">
+                    <canvas id="growthChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-500 py-10 text-center">
+        <p>&copy; 2024 studioMac | Dashboard de Estrategia Unificada</p>
+    </footer>
+
+    <script>
+        // Chart Configuration
+        Chart.defaults.font.family = "'Inter', sans-serif";
+        Chart.defaults.color = '#64748b';
+
+        // Budget Mix
+        const ctxBudget = document.getElementById('budgetChart').getContext('2d');
+        new Chart(ctxBudget, {
+            type: 'doughnut',
+            data: {
+                labels: ['Search (Intención)', 'Marca (Confianza)', 'Local (Maps)'],
+                datasets: [{
+                    data: [50, 30, 20],
+                    backgroundColor: ['#2563EB', '#7C3AED', '#F59E0B'],
+                    borderWidth: 0
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, cutout: '70%' }
+        });
+
+        // Growth Projection
+        const ctxGrowth = document.getElementById('growthChart').getContext('2d');
+        new Chart(ctxGrowth, {
+            type: 'bar',
+            data: {
+                labels: ['Mes 1', 'Mes 2', 'Mes 3'],
+                datasets: [{
+                    label: 'Leads Esperados',
+                    data: [20, 45, 80],
+                    backgroundColor: ['#93C5FD', '#60A5FA', '#2563EB'],
+                    borderRadius: 6
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { beginAtZero: true } } }
+        });
+    </script>
+</body>
+
+</html>

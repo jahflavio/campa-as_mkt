@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 2: Expansión Visual - Dashboard studioMac</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+
+    <div class="max-w-4xl mx-auto p-6">
+
+        <!-- Header -->
+        <header class="mb-8 border-b border-slate-200 pb-6">
+            <h1 class="text-3xl font-extrabold text-[#9F56D2]">studioMac <span class="text-slate-800">| Fase 2:
+                    Expansión Visual</span></h1>
+            <p class="text-slate-500 mt-2">Campaña Performance Max y generación de creativos con IA.</p>
+        </header>
+
+        <!-- Progress Overview -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider">Estado</h3>
+                <p class="text-2xl font-bold text-slate-300 mt-1">Pendiente</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider">Objetivo</h3>
+                <p class="text-2xl font-bold text-slate-800 mt-1">Impacto Visual</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider">Fechas</h3>
+                <p class="text-xl font-bold text-slate-800 mt-1">26 Ene - 06 Feb</p>
+            </div>
+        </div>
+
+        <!-- Checklist Section -->
+        <div class="bg-white rounded-xl shadow-lg border border-slate-100 overflow-hidden mb-8">
+            <div class="bg-purple-900 p-4">
+                <h2 class="text-white font-bold text-lg">✅ Checklist de Expansión</h2>
+            </div>
+            <div class="p-6 space-y-4">
+
+                <h3 class="font-bold text-slate-700 mt-2">Creativos & Diseño (Semana 3)</h3>
+
+                <label class="flex items-start space-x-3 p-3 hover:bg-slate-50 rounded-lg cursor-pointer transition">
+                    <input type="checkbox" class="w-5 h-5 text-purple-600 rounded focus:ring-purple-600 mt-1">
+                    <div>
+                        <span class="font-semibold block text-slate-800">Generar Imágenes IA</span>
+                        <span class="text-sm text-slate-500">Prompts de estudiantes, iMacs futuristas, entorno
+                            tech.</span>
+                    </div>
+                </label>
+
+                <label class="flex items-start space-x-3 p-3 hover:bg-slate-50 rounded-lg cursor-pointer transition">
+                    <input type="checkbox" class="w-5 h-5 text-purple-600 rounded focus:ring-purple-600 mt-1">
+                    <div>
+                        <span class="font-semibold block text-slate-800">Video Promocional Rapido</span>
+                        <span class="text-sm text-slate-500">Crear reel de 15s en Canva con las imágenes y
+                            música.</span>
+                    </div>
+                </label>
+
+                <div class="border-t border-slate-100 my-4"></div>
+                <h3 class="font-bold text-slate-700 mt-2">Campaña PMax (Semana 4)</h3>
+
+                <label class="flex items-start space-x-3 p-3 hover:bg-slate-50 rounded-lg cursor-pointer transition">
+                    <input type="checkbox" class="w-5 h-5 text-purple-600 rounded focus:ring-purple-600 mt-1">
+                    <div>
+                        <span class="font-semibold block text-slate-800">Señales de Audiencia</span>
+                        <span class="text-sm text-slate-500">Configurar listas: Competencia, Intereses Tech, Apple
+                            Users.</span>
+                    </div>
+                </label>
+
+                <label class="flex items-start space-x-3 p-3 hover:bg-slate-50 rounded-lg cursor-pointer transition">
+                    <input type="checkbox" class="w-5 h-5 text-purple-600 rounded focus:ring-purple-600 mt-1">
+                    <div>
+                        <span class="font-semibold block text-slate-800">Configurar Grupos de Activos</span>
+                        <span class="text-sm text-slate-500">Subir imágenes y textos diversificados a Google Ads.</span>
+                    </div>
+                </label>
+
+                <label class="flex items-start space-x-3 p-3 hover:bg-slate-50 rounded-lg cursor-pointer transition">
+                    <input type="checkbox" class="w-5 h-5 text-purple-600 rounded focus:ring-purple-600 mt-1">
+                    <div>
+                        <span class="font-semibold block text-slate-800">Lanzar Performance Max</span>
+                        <span class="text-sm text-slate-500">Activar campaña y monitorear gasto inicial.</span>
+                    </div>
+                </label>
+            </div>
+        </div>
+
+        <!-- Calendar Section -->
+        <div class="bg-white rounded-xl shadow-lg border border-slate-100 overflow-hidden">
+            <div class="bg-gray-100 p-4 border-b border-gray-200">
+                <h2 class="font-bold text-slate-700">📅 Calendario Semana 3 & 4</h2>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-sm text-slate-600">
+                    <thead class="bg-slate-50 text-slate-900 font-semibold uppercase text-xs">
+                        <tr>
+                            <th class="p-4 border-b">Día</th>
+                            <th class="p-4 border-b">Acción</th>
+                            <th class="p-4 border-b">Tipo</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-100">
+                        <tr>
+                            <td class="p-4">Lun 26</td>
+                            <td class="p-4">Generación de Imágenes</td>
+                            <td class="p-4 text-purple-600 font-bold">Creativo</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 bg-slate-50">Mar 27</td>
+                            <td class="p-4 bg-slate-50">Curaduría de Material</td>
+                            <td class="p-4 bg-slate-50 text-purple-600 font-bold">Creativo</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Mie 28</td>
+                            <td class="p-4">Edición de Video Corto</td>
+                            <td class="p-4 text-purple-600 font-bold">Creativo</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 bg-slate-50">Jue 29</td>
+                            <td class="p-4 bg-slate-50">Definición de Audiencia</td>
+                            <td class="p-4 bg-slate-50 text-blue-600 font-bold">Estrategia</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Vie 30</td>
+                            <td class="p-4">Montaje en Plataforma</td>
+                            <td class="p-4 text-blue-600 font-bold">Técnico</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 bg-purple-100 font-bold">Lun 02</td>
+                            <td class="p-4 bg-purple-100 font-bold text-purple-900">🚀 LANZAMIENTO PMAX</td>
+                            <td class="p-4 bg-purple-100 text-purple-900 font-bold">HITO</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Mar 03</td>
+                            <td class="p-4">Prueba de flujo de leads</td>
+                            <td class="p-4 text-slate-500">QA</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 bg-slate-50">Vie 06</td>
+                            <td class="p-4 bg-slate-50">Evaluación Semanal</td>
+                            <td class="p-4 bg-slate-50 text-slate-500">Análisis</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

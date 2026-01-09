@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 3: Optimización - Dashboard studioMac</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+
+    <div class="max-w-4xl mx-auto p-6">
+
+        <!-- Header -->
+        <header class="mb-8 border-b border-slate-200 pb-6">
+            <h1 class="text-3xl font-extrabold text-[#10B981]">studioMac <span class="text-slate-800">| Fase 3:
+                    Optimización</span></h1>
+            <p class="text-slate-500 mt-2">Remarketing, Smart Bidding y Escalado de Presupuesto.</p>
+        </header>
+
+        <!-- Progress Overview -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider">Estado</h3>
+                <p class="text-2xl font-bold text-slate-300 mt-1">Futuro</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider">Objetivo</h3>
+                <p class="text-2xl font-bold text-slate-800 mt-1">Escalado (ROAS)</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider">Inicio</h3>
+                <p class="text-xl font-bold text-slate-800 mt-1">09 Feb en adelante</p>
+            </div>
+        </div>
+
+        <!-- Checklist Section -->
+        <div class="bg-white rounded-xl shadow-lg border border-slate-100 overflow-hidden mb-8">
+            <div class="bg-green-800 p-4">
+                <h2 class="text-white font-bold text-lg">✅ Checklist de Mantenimiento</h2>
+            </div>
+            <div class="p-6 space-y-4">
+
+                <h3 class="font-bold text-slate-700 mt-2">Optimización Recurrente</h3>
+
+                <label class="flex items-start space-x-3 p-3 hover:bg-slate-50 rounded-lg cursor-pointer transition">
+                    <input type="checkbox" class="w-5 h-5 text-green-600 rounded focus:ring-green-600 mt-1">
+                    <div>
+                        <span class="font-semibold block text-slate-800">Revisión de Palabras Negativas</span>
+                        <span class="text-sm text-slate-500">Bloquear búsquedas irrelevantes semanalmente.</span>
+                    </div>
+                </label>
+
+                <label class="flex items-start space-x-3 p-3 hover:bg-slate-50 rounded-lg cursor-pointer transition">
+                    <input type="checkbox" class="w-5 h-5 text-green-600 rounded focus:ring-green-600 mt-1">
+                    <div>
+                        <span class="font-semibold block text-slate-800">Activar Remarketing</span>
+                        <span class="text-sm text-slate-500">Crear audiencias "Visitó pero no convirtió".</span>
+                    </div>
+                </label>
+
+                <label class="flex items-start space-x-3 p-3 hover:bg-slate-50 rounded-lg cursor-pointer transition">
+                    <input type="checkbox" class="w-5 h-5 text-green-600 rounded focus:ring-green-600 mt-1">
+                    <div>
+                        <span class="font-semibold block text-slate-800">Smart Bidding (CPA)</span>
+                        <span class="text-sm text-slate-500">Cambiar puja a "CPA Objetivo" al lograr 30 leads.</span>
+                    </div>
+                </label>
+
+                <label class="flex items-start space-x-3 p-3 hover:bg-slate-50 rounded-lg cursor-pointer transition">
+                    <input type="checkbox" class="w-5 h-5 text-green-600 rounded focus:ring-green-600 mt-1">
+                    <div>
+                        <span class="font-semibold block text-slate-800">Rotación de Creativos</span>
+                        <span class="text-sm text-slate-500">Reemplazar imágenes con bajo rendimiento cada mes.</span>
+                    </div>
+                </label>
+            </div>
+        </div>
+
+        <!-- Calendar Section -->
+        <div class="bg-white rounded-xl shadow-lg border border-slate-100 overflow-hidden">
+            <div class="bg-gray-100 p-4 border-b border-gray-200">
+                <h2 class="font-bold text-slate-700">📅 Rutina Continua</h2>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-sm text-slate-600">
+                    <thead class="bg-slate-50 text-slate-900 font-semibold uppercase text-xs">
+                        <tr>
+                            <th class="p-4 border-b">Frecuencia</th>
+                            <th class="p-4 border-b">Acción</th>
+                            <th class="p-4 border-b">Objetivo</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-100">
+                        <tr>
+                            <td class="p-4 bg-green-50 font-bold">Lunes</td>
+                            <td class="p-4 bg-green-50">Revisión de Presupuesto</td>
+                            <td class="p-4 bg-green-50 text-green-800">Control</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Miércoles</td>
+                            <td class="p-4">Bloqueo de Palabras Negativas</td>
+                            <td class="p-4 text-green-600">Eficiencia</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 bg-slate-50">Viernes</td>
+                            <td class="p-4 bg-slate-50">Análisis de Pipeline (HubSpot)</td>
+                            <td class="p-4 bg-slate-50 text-blue-600">Calidad</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Mensual</td>
+                            <td class="p-4">Renovación de Creativos</td>
+                            <td class="p-4 text-purple-600">Frescura</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

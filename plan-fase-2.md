@@ -1,0 +1,49 @@
+# Plan de Acción Humano: Fase 2 - Expansión Visual y Atracción
+**Objetivo:** Hacer que studioMac se vea "Grande" y "Premium". Perseguir a la gente con imágenes increíbles.
+
+**Duración:** 2 Semanas (26 Enero - 6 Febrero)
+**Requisito:** Haber completado la Fase 1.
+
+---
+
+## 📅 Calendario de Implementación
+
+| Día | Acción Principal | Detalle Rápido |
+| :--- | :--- | :--- |
+| **Lun 26** | 🖼️ **Generación IA** | Usar Midjourney/DALL-E para crear imágenes futuristas de estudiantes y tecnología. |
+| **Mar 27** | 📂 **Curaduría** | Elegir las mejores 10 imágenes (Drones, Diseño, Código) y guardarlas. |
+| **Mié 28** | 🎥 **Video Rápido** | Usar Canva para hacer un video de 15s con las fotos y el logo animado. |
+| **Jue 29** | 👥 **Audiencias** | Definir en Ads quién es tu cliente: "Fans de Apple", "Diseñadores", "Adobe Users". |
+| **Vie 30** | 🛠️ **Montaje PMax** | Subir todo a una campaña "Performance Max" en Google Ads. |
+| **Lun 02** | 🚀 **LANZAMIENTO PMax** | Activar la campaña visual. Google empezará a mostrarte en YouTube y Gmail. |
+| **Mar 03** | 📞 **Prueba de Flujo** | Asegurar que los leads que llegan de PMax se están contestando rápido. |
+| **Mié 04** | 📊 **Revisión Inicial** | Checar qué imágenes tienen más clics. |
+| **Jue 05** | 🧪 **Ajustes** | Si una imagen gasta mucho y no trae nadie, apagarla. |
+| **Vie 06** | 🥳 **Evaluación** | Comparar: ¿Llegan más por Búsqueda (Fase 1) o por Visual (Fase 2)? |
+
+---
+
+## 🧠 ¿Por qué hacemos esto así?
+
+### 1. La "Guerra de la Atención"
+La gente no busca "cursos" todo el día. A veces solo ven YouTube.
+*   **Estrategia:** Interrumpimos su navegación con imágenes tan buenas que parezcan de una universidad de primer mundo.
+*   **Contraste:** Mostramos el hardware. Mostramos pantallas de código brillante. Que sientan que su laptop actual es vieja.
+
+### 2. Performance Max (La IA de Google)
+Esta campaña es como un "pulpo". Toca YouTube, Gmail, Discover y Maps al mismo tiempo.
+*   **La Ventaja:** Encuentra clientes donde no los estabas buscando.
+*   **El Riesgo:** Gasta dinero rápido. Por eso monitoreamos diario los primeros días.
+
+### 3. Señales de Audiencia
+No disparamos al aire. Le decimos a Google: "Busca gente que visite las webs de la competencia".
+*   **Táctica:** Si alguien visitó la web de "Aula Mac" o "EduMac" recientemente, ¡BOOM!, le mostramos nuestro anuncio.
+
+---
+
+## 📝 Checklist de "Éxito" para Cerrar Fase 2
+
+1. [ ] Tienes una biblioteca de al menos 20 imágenes de alta calidad (IA o reales) y 1 video.
+2. [ ] La campaña "Performance Max" está activa y generando impresiones.
+3. [ ] Estás recibiendo leads de gente que dice "vi su anuncio en YouTube/Gmail".
+4. [ ] Sigues gestionando tus leads desde el Pipeline de Ventas en HubSpot.
