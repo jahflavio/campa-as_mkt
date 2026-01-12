@@ -4,15 +4,6 @@ Sigue estos pasos exactos en tu cuenta de Google Ads para cumplir tu objetivo: *
 
 ---
 
-## Paso 0: El "Cerebro Digital" (GTM y GA4)
-> [!IMPORTANT]
-> **No lances la campaña sin esto.** Si no mides, estarás "tirando dinero a ciegas". Antes de activar los anuncios, asegúrate de:
-> 1. **Google Tag Manager:** Tener el código instalado en tu `index.html`.
-> 2. **WhatsApp Tracking:** Configurar el evento `contacto_studiomac` en GA4 para medir cada vez que alguien te escribe.
-> 3. **Vinculación:** Conectar Google Ads con GA4 e importar la conversión de "Contacto".
-
----
-
 ## Paso 1: Crear la Campaña Correcta
 1.  En tu panel de Google Ads, haz clic en el botón azul **+ Crear** > **Campaña**.
 2.  **Objetivo:** Selecciona **"Tráfico al sitio web"** (o "Crear una campaña sin la orientación de un objetivo").
@@ -169,19 +160,20 @@ Estás en la pantalla donde Google usa IA para "leer" tu URL y descripción.
 Usa **Concordancia de Frase** (poniendo las palabras entre comillas "").
 
 **Copia y pega estas (Lista Final Optimizada):**
-*   `"cursos de diseño grafico presenciales"` — *Diseño*
-*   `"clases de ilustracion digital cdmx"` — *Arte Digital*
-*   `"curso de photoshop presencial"` — *Software Pro*
-*   `"clases de after effects y premiere"` — *Video/Post*
-*   `"curso de reparacion de iphone"` — *Soporte Técnico*
-*   `"clases de programacion web cdmx"` — *Desarrollo*
-*   `"escuela de computacion del valle"` — *Local*
-*   `"studioMac cursos"` — *Marca*
+*   `"cursos de diseño grafico presenciales"`
+*   `"clases de ilustracion digital cdmx"`
+*   `"curso de photoshop presencial"`
+*   `"clases final cut pro"`
+*   `"curso de adobe after effects"`
+*   `"curso reparacion de celulares iphone"`
+*   `"clases de programacion web"`
+*   `"escuela de arte digital del valle"`
+*   `"centro de capacitacion apple"`
+*   `"studioMac cursos"`
 
-> [!TIP]
-> **¿Por qué tan pocas?** 
-> En campañas locales (5km), la **Calidad > Cantidad**.
-> Es mejor tener 10 frases que la gente *realmente* busca para comprar, que 100 palabras de relleno. Con estas cubres tus servicios clave: Diseño, Video, Soporte y Programación.
+> **¿Son suficientes?** 
+> Sí. En campañas locales (5km), **Calidad > Cantidad**.
+> Es mejor tener 10 frases que la gente *realmente* busca para comprar, que 100 palabras de relleno. Con estas cubres: Diseño, Video, Soporte Técnico y Programación.
 
 ---
 
@@ -197,55 +189,55 @@ Google te pide muchas opciones para probar cuál funciona mejor. **Llena TODO es
 ### 🅰️ Títulos (30 caracteres máx)
 *Copia y pega estos (trata de llenar los 15 espacios que te da Google):*
 
-1.  **studioMac: Cursos Premium**
-2.  **Aprende en iMacs Pro**
-3.  **Diseño Digital en Del Valle**
-4.  **Cursos 100% Presenciales**
-5.  **Diplomado en Diseño Gráfico**
-6.  **Master en After Effects Pro**
-7.  **Especialista en Adobe CC**
-8.  **Reparación iPhone: Nivel Pro**
-9.  **Programación Web Avanzada**
-10. **Grupos VIP: Max 6 Alumnos**
-11. **Mentoría con Expertos Apple**
-12. **Olvida los Cursos por Zoom**
-13. **Tu Carrera en studioMac**
-14. **Agenda tu Clase de Prueba**
-15. **Escuela Pro en Del Valle**
+1.  **studioMac Del Valle**
+2.  **Cursos Presenciales CDMX**
+3.  **Escuela de Diseño Digital**
+4.  **Aprende en iMacs Pro**
+5.  **Curso Photoshop Presencial**
+6.  **Clases de Final Cut Pro**
+7.  **Reparación de iPhone**
+8.  **Olvídate de Cursos Online**
+9.  **Centro de Capacitación**
+10. **A 5 min de tu casa**
+11. **Práctica 100% Real**
+12. **Grupos Reducidos**
+13. **Agenda tu Clase Gratis**
+14. **Inicia tu Carrera Hoy**
+15. **Expertos en Apple**
 
 ### 🅱️ Descripciones (90 caracteres máx)
 *Llena las 4 opciones (Ajustadas a longitud correcta):*
 
-1.  **Rompe la barrera digital. Aprende con expertos en una infraestructura Apple de nivel.**
-2.  **Domina Photoshop, Final Cut y más. Grupos VIP para una enseñanza personalizada y real.**
-3.  **Transforma tu carrera con educación presencial. Prácticas intensivas en equipos iMac Pro.**
-4.  **¿Buscas calidad? Descubre el centro de capacitación digital más exclusivo de la Del Valle.**
+1.  **¿Harto de Zoom? Aprende presencial en la Del Valle con iMacs Pro.**
+2.  **Clases de Diseño y Reparación 100% presenciales. Practica en iMacs.**
+3.  **Cursos prácticos y grupos pequeños en CDMX. ¡Tu carrera inicia hoy!**
+4.  **Certifícate en Adobe y Apple. Instalaciones profesionales aquí.**
 
 ### 🧩 Extensiones: Vínculos a Sitios (Sitelinks)
 ¡Llénalos todos! Esto hace que tu anuncio ocupe más espacio en la pantalla.
 
-#### Vínculo 1: Ver Cursos Pro
-*   **Texto del vínculo:** `Ver Cursos Pro`
+#### Vínculo 1: Ver Cursos (General)
+*   **Texto del vínculo:** `Ver Cursos`
 *   **Línea desc. 1:** `Diseño, Video, Web y Apps.`
-*   **Línea desc. 2:** `Conoce nuestro catálogo exclusivo.`
+*   **Línea desc. 2:** `Consulta nuestro catálogo aquí.`
 *   **URL Final:** `https://www.studiomac.mx/`
 
-#### Vínculo 2: Ubicación
-*   **Texto del vínculo:** `Visítanos en Del Valle`
-*   **Línea desc. 1:** `Ubicación céntrica y segura.`
-*   **Línea desc. 2:** `Instalaciones con equipos Apple.`
+#### Vínculo 2: Ubicación (Cercanía)
+*   **Texto del vínculo:** `Visita studioMac`
+*   **Línea desc. 1:** `Estamos en la Colonia del Valle.`
+*   **Línea desc. 2:** `Estacionamiento y Seguridad.`
 *   **URL Final:** `https://www.studiomac.mx/`
 
-#### Vínculo 3: WhatsApp
-*   **Texto del vínculo:** `Habla con un Asesor`
-*   **Línea desc. 1:** `Resuelve tus dudas al instante.`
-*   **Línea desc. 2:** `Atención personalizada vía WhatsApp.`
+#### Vínculo 3: Contacto Rápido
+*   **Texto del vínculo:** `Mandar WhatsApp`
+*   **Línea desc. 1:** `¿Tienes dudas? Escríbenos hoy.`
+*   **Línea desc. 2:** `Atención personalizada inmediata.`
 *   **URL Final:** `https://www.studiomac.mx/`
 
-#### Vínculo 4: Beneficios
-*   **Texto del vínculo:** `Estudia en iMacs Pro`
-*   **Línea desc. 1:** `La mejor tecnología a tu alcance.`
-*   **Línea desc. 2:** `Olvídate de los cursos en línea.`
+#### Vínculo 4: Diplomados Pro
+*   **Texto del vínculo:** `Diplomados Apple`
+*   **Línea desc. 1:** `Certifícate en Adobe y Final Cut.`
+*   **Línea desc. 2:** `Impulsa tu carrera profesional.`
 *   **URL Final:** `https://www.studiomac.mx/`
 
 > **IMPORTANTE: En la Extensión de Llamada:**
@@ -256,33 +248,8 @@ Google te pide muchas opciones para probar cuál funciona mejor. **Llena TODO es
 ---
 
 ## Paso 6: Presupuesto y Revisión Final
-1.  **Presupuesto:** Inicia con lo que te sientas cómodo (ej. $200 MXN diarios).
-2.  **Puja:** "Maximizar Clics" (con límite de CPC de $15 a $20).
+1.  **Presupuesto:** Ej. $200 MXN diarios.
+2.  **Puja:** "Maximizar Clics" (con límite de CPC ej. $15).
 3.  **Publicar Campaña.**
 
----
-
-## Paso 7: Optimización Semanal (¡Aquí mejoras la campaña!)
-Una vez activa, tu trabajo es "podar" lo que no sirve y regar lo que sí.
-
-### 1. Limpieza de Términos (Cada 2 días)
-Google te cobrará por búsquedas que tú no elegiste.
-*   Ve a **Palabras Clave** > **Términos de Búsqueda**.
-*   Si ves algo como *"descargar photoshop gratis"* o *"cursos para niños"*:
-    *   Márcalo y haz clic en **"Agregar como palabra clave negativa"**.
-    *   Selecciona del tipo **[Exacta]** para no volver a aparecer ahí.
-
-### 2. El Semáforo de Calidad
-Mira la columna de **"Nivel de Calidad"** (si no la ves, búscala en "Columnas").
-*   **1 a 4:** Malo. Tu anuncio no coincide con lo que el usuario busca. Reelabora los títulos.
-*   **5 a 7:** Bueno.
-*   **8 a 10:** Excelente. Google te dará clics más baratos por ser relevante.
-
-### 3. Ajuste por Dispositivos
-Si ves que la mayoría de tus contactos vienen de móvil:
-*   Ve a **Contenido** > **Dispositivos**.
-*   En "Teléfonos móviles", aumenta la puja un **+10%**. Esto te asegura ganar la posición cuando alguien busca desde la calle.
-
----
-
-¡Listo! Tienes una campaña profesional, local y diseñada para crecer.
+¡Listo! Tienes una campaña profesional, local y blindada contra clics basura.
