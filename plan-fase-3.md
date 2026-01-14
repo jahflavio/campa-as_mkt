@@ -1,7 +1,7 @@
 # Plan de Acción Humano: Fase 3 - Optimización y Cacería (Remarketing)
 **Objetivo:** Dejar de gastar en curiosos e invertir en convencidos. Perseguir a los que casi compran.
 
-**Duración:** Continuo (A partir del 9 Febrero)
+**Duración:** Continuo (A partir del 28 Enero)
 **Requisito:** Tener al menos 30 leads registrados en total.
 
 ---

@@ -1,7 +1,7 @@
 # Plan de Acción Humano: Fase 2 - Expansión Visual y Atracción
 **Objetivo:** Hacer que studioMac se vea "Grande" y "Premium". Perseguir a la gente con imágenes increíbles.
 
-**Duración:** 2 Semanas (26 Enero - 6 Febrero)
+**Duración:** 2 Semanas (14 Enero - 27 Enero)
 **Requisito:** Haber completado la Fase 1.
 
 ---
@@ -10,16 +10,16 @@
 
 | Día | Acción Principal | Detalle Rápido |
 | :--- | :--- | :--- |
-| **Lun 26** | 🖼️ **Generación IA** | Usar Midjourney/DALL-E para crear imágenes futuristas de estudiantes y tecnología. |
-| **Mar 27** | 📂 **Curaduría** | Elegir las mejores 10 imágenes (Drones, Diseño, Código) y guardarlas. |
-| **Mié 28** | 🎥 **Video Rápido** | Usar Canva para hacer un video de 15s con las fotos y el logo animado. |
-| **Jue 29** | 👥 **Audiencias** | Definir en Ads quién es tu cliente: "Fans de Apple", "Diseñadores", "Adobe Users". |
-| **Vie 30** | 🛠️ **Montaje PMax** | Subir todo a una campaña "Performance Max" en Google Ads. |
-| **Lun 02** | 🚀 **LANZAMIENTO PMax** | Activar la campaña visual. Google empezará a mostrarte en YouTube y Gmail. |
-| **Mar 03** | 📞 **Prueba de Flujo** | Asegurar que los leads que llegan de PMax se están contestando rápido. |
-| **Mié 04** | 📊 **Revisión Inicial** | Checar qué imágenes tienen más clics. |
-| **Jue 05** | 🧪 **Ajustes** | Si una imagen gasta mucho y no trae nadie, apagarla. |
-| **Vie 06** | 🥳 **Evaluación** | Comparar: ¿Llegan más por Búsqueda (Fase 1) o por Visual (Fase 2)? |
+| **Mié 14** | 🖼️ **Generación IA** | Usar Midjourney/DALL-E para crear imágenes futuristas. |
+| **Jue 15** | 📂 **Curaduría** | Elegir las mejores 10 imágenes y guardarlas. |
+| **Vie 16** | 🎥 **Video Rápido** | Hacer un video de 15s con las fotos y el logo animado. |
+| **Lun 19** | 👥 **Audiencias** | Definir en Ads quién es tu cliente: "Fans de Apple", etc. |
+| **Mar 20** | 🛠️ **Montaje PMax** | Subir todo a una campaña "Performance Max" en Google Ads. |
+| **Mié 21** | 🚀 **LANZAMIENTO PMax** | Activar la campaña visual en YouTube y Gmail. |
+| **Jue 22** | 📞 **Prueba de Flujo** | Asegurar que los leads se están contestando rápido. |
+| **Vie 23** | 📊 **Revisión Inicial** | Checar qué imágenes tienen más clics. |
+| **Lun 26** | 🧪 **Ajustes** | Optimizar las imágenes que no estén funcionando. |
+| **Mar 27** | 🥳 **Evaluación** | Comparar rendimiento Fase 1 vs Fase 2. |
 
 ---
 
